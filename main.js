@@ -25,3 +25,6 @@ console.log('basic test 3', well(['good', 'bad', 'bad', 'bad', 'bad', 'good', 'b
 // create a conditional which returns 'Publish!' if count.length == 1 OR == 2
 // else if count.length > 2 return 'I smell a series!'
 // else return 'Fail!'
+
+
+module.exports = well;
