@@ -10,10 +10,10 @@ function well(x) {
     } else return 'Fail!'
 }
 
-console.log('me test,', well(['good', 'good', 'bad', 'bad']))
-console.log('basic test 1', well(['bad', 'bad', 'bad']))
-console.log('basic test 2', well(['good', 'bad', 'bad', 'bad', 'bad']))
-console.log('basic test 3', well(['good', 'bad', 'bad', 'bad', 'bad', 'good', 'bad', 'bad', 'good']))
+// console.log('me test,', well(['good', 'good', 'bad', 'bad']))
+// console.log('basic test 1', well(['bad', 'bad', 'bad']))
+// console.log('basic test 2', well(['good', 'bad', 'bad', 'bad', 'bad']))
+// console.log('basic test 3', well(['good', 'bad', 'bad', 'bad', 'bad', 'good', 'bad', 'bad', 'good']))
 
 
 // params: x    // an array
@@ -27,4 +27,4 @@ console.log('basic test 3', well(['good', 'bad', 'bad', 'bad', 'bad', 'good', 'b
 // else return 'Fail!'
 
 
-module.exports = well;
+module.exports = well
